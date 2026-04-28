@@ -1,6 +1,6 @@
 N,Q = map(int,input().split())
 arr = list(map(int,input().split()))
-commands = [list(map(int,input().split())) for _ in range(N)]
+commands = [list(map(int,input().split())) for _ in range(Q)]
 for command in commands:
     if command[0] == 1:
         print(arr[command[1]-1])
